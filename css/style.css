@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'Black';
-  src: url('./fonts/HurmeGeometricSans3-Black.otf') format('opentype');
+  font-family: "Black";
+  src: url("../fonts/HurmeGeometricSans3-Black.otf") format("opentype");
 }
 @font-face {
-  font-family: 'Bold';
-  src: url('./fonts/HurmeGeometricSans3-Bold.otf') format('opentype');
+  font-family: "Bold";
+  src: url("../fonts/HurmeGeometricSans3-Bold.otf") format("opentype");
 }
 @font-face {
-  font-family: 'Regular';
-  src: url('./fonts/HurmeGeometricSans3-Regular.otf') format('opentype');
+  font-family: "Regular";
+  src: url("../fonts/HurmeGeometricSans3-Regular.otf") format("opentype");
 }
 @keyframes es-move {
   0% {
@@ -30,10 +30,10 @@
   }
 }
 #es-sodastream.es-sodastream {
-  font-family: 'Regular';
+  font-family: "Regular";
   font-size: 25px;
   line-height: 1.2;
-  max-width: 1170px;
+  max-width: 1005px;
   min-width: 320px;
   margin: 0 auto;
   padding: 0;
@@ -55,8 +55,9 @@
 }
 #es-sodastream.es-sodastream .es-kv__container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 #es-sodastream.es-sodastream .es-kv__content {
   display: flex;
@@ -69,15 +70,15 @@
 }
 #es-sodastream.es-sodastream .es-kv__bg {
   display: block;
-  font-family: 'Bold';
+  font-family: "Bold";
   color: #e5dcd3;
-  font-size: 60px;
+  font-size: 10 0px;
   margin: 0;
 }
 #es-sodastream.es-sodastream .es-kv__title {
   text-transform: uppercase;
-  font-family: 'Bold';
-  font-size: 20px;
+  font-family: "Bold";
+  font-size: 35px;
   line-height: 1.2;
 }
 #es-sodastream.es-sodastream .es-kv__subtitle {
@@ -110,16 +111,19 @@
   background-position: 50% 135px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20px;
-  min-height: 700px;
 }
 
 #es-sodastream.es-sodastream .es-possibilities__title {
   text-transform: uppercase;
-  font-family: 'Bold';
+  font-family: "Bold";
   font-size: 35px;
   margin: 0;
   text-align: center;
+}
+#es-sodastream.es-sodastream .es-posibilities__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 #es-sodastream.es-sodastream .es-efficiency {
   display: flex;
@@ -131,7 +135,7 @@
 }
 #es-sodastream.es-sodastream .es-efficiency__title {
   text-transform: uppercase;
-  font-family: 'Bold';
+  font-family: "Bold";
   font-size: 25px;
   margin: 0;
   padding-top: 10px;
@@ -173,7 +177,7 @@
   z-index: 2;
 }
 #es-sodastream.es-sodastream .es-steps__title {
-  font-family: 'Bold';
+  font-family: "Bold";
   font-size: 25px;
   text-align: center;
   color: #13294b;
@@ -194,7 +198,52 @@
   max-width: 80%;
   margin: 20px auto;
 }
+#es-sodastream.es-sodastream .es-vitamins {
+  background-color: #ebe6e1;
+}
 
+#es-sodastream.es-sodastream .es-vitamins__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: 28px;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#es-sodastream.es-sodastream .es-vitamins__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 30px 15px 15px;
+}
+
+#es-sodastream.es-sodastream .es-vitamins__texts {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 16px;
+  font-family: "HurmeGeometricSans3-Light", sans-serif;
+  text-align: left;
+}
+
+#es-sodastream.es-sodastream .es-vitamins__badge {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#es-sodastream.es-sodastream .es-vitamins__footer {
+  font-size: 12px;
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
 #es-sodastream.es-sodastream .es-set {
   background-color: #e5dcd3;
   display: flex;
@@ -209,7 +258,7 @@
   margin-top: -230px;
 }
 #es-sodastream.es-sodastream .es-set__title {
-  font-family: 'Bold';
+  font-family: "Bold";
   font-size: 25px;
   margin: 0;
   margin-bottom: 20px;
@@ -245,7 +294,7 @@
   text-align: center;
 }
 #es-sodastream.es-sodastream .es-slider__number {
-  font-family: 'Black';
+  font-family: "Black";
   color: #13294b;
   font-size: 30px;
   margin-bottom: 0;
@@ -262,7 +311,7 @@
   font-size: 14px;
 }
 #es-sodastream.es-sodastream .es-slider__desc span {
-  font-family: 'Bold';
+  font-family: "Bold";
 }
 
 #es-sodastream.es-sodastream .es-cta {
@@ -310,7 +359,7 @@
 #es-sodastream.es-sodastream .es-ctaInfo__title {
   text-align: center;
   color: #eeeae5;
-  font-family: 'Bold';
+  font-family: "Bold";
   font-size: 25px;
   margin: 0;
   padding: 40px 10px;
@@ -345,7 +394,7 @@
   text-align: center;
   font-size: 25px;
   color: #75a7ad;
-  font-family: 'Bold';
+  font-family: "Bold";
 }
 #es-sodastream.es-sodastream .es-slider {
   padding-top: 50px;
@@ -354,7 +403,7 @@
 #es-sodastream.es-sodastream .es-slider__title {
   text-align: center;
   color: #13294b;
-  font-family: 'Bold';
+  font-family: "Bold";
   font-size: 25px;
   margin: 0;
   padding: 40px 10px;
@@ -403,7 +452,7 @@
 }
 #es-sodastream.es-sodastream .es-slider__subtitle {
   font-size: 20px;
-  font-family: 'Bold';
+  font-family: "Bold";
 }
 #es-sodastream.es-sodastream .es-slider__texts {
   max-width: 320px;
@@ -570,7 +619,7 @@
 #es-sodastream.es-sodastream .es-syroups__title {
   text-align: center;
   color: #eeeae5;
-  font-family: 'Bold';
+  font-family: "Bold";
   font-size: 25px;
   margin: 0;
   padding: 20px 10px;
@@ -601,7 +650,7 @@
 #es-sodastream.es-sodastream .es-video__title {
   text-align: center;
   color: #13294b;
-  font-family: 'Bold';
+  font-family: "Bold";
   font-size: 25px;
   margin: 0;
   padding: 20px 10px;
@@ -617,7 +666,7 @@
 }
 #es-sodastream.es-sodastream .es-video__hash {
   text-align: center;
-  font-family: 'Bold';
+  font-family: "Bold";
   font-size: 40px;
 }
 #es-sodastream.es-sodastream .es-video__logo {
@@ -650,7 +699,7 @@
   #es-sodastream.es-sodastream .es-kv__container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
   }
   #es-sodastream.es-sodastream .es-kv__content {
     display: flex;
@@ -661,12 +710,9 @@
   #es-sodastream.es-sodastream .es-kv__contentText {
     margin-left: 30px;
   }
-  #es-sodastream.es-sodastream .es-kv__bg {
-    display: none;
-  }
   #es-sodastream.es-sodastream .es-kv__title {
     text-transform: uppercase;
-    font-family: 'Bold';
+    font-family: "Bold";
     font-size: 35px;
     line-height: 1.2;
   }
@@ -684,7 +730,7 @@
   #es-sodastream.es-sodastream .es-kv__packshot {
     max-height: 600px;
     height: auto;
-    margin-bottom: -80px;
+    margin-bottom: -50px;
     margin-left: 0px;
   }
 
@@ -804,7 +850,7 @@
     font-size: 18px;
   }
   #es-sodastream.es-sodastream .es-slider__number {
-    font-family: 'Black';
+    font-family: "Black";
     color: #13294b;
     font-size: 70px;
     margin-bottom: 30px;
@@ -843,7 +889,8 @@
   }
   #es-sodastream.es-sodastream .es-kv__container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: flex-end;
   }
   #es-sodastream.es-sodastream .es-kv__content {
@@ -857,11 +904,13 @@
     margin-top: 130px;
   }
   #es-sodastream.es-sodastream .es-kv__bg {
-    display: none;
+    display: block;
+    font-size: 200px;
+    margin-top: -145px;
   }
   #es-sodastream.es-sodastream .es-kv__title {
     text-transform: uppercase;
-    font-family: 'Bold';
+    font-family: "Bold";
     font-size: 50px;
     line-height: 1.2;
     margin-bottom: 160px;
@@ -880,9 +929,6 @@
     max-width: 600px;
   }
   #es-sodastream.es-sodastream .es-kv__packshot {
-    max-height: none;
-    height: auto;
-    width: 460px;
     margin-bottom: -55px;
     margin-left: -0px;
   }
@@ -912,6 +958,102 @@
   }
   #es-sodastream.es-sodastream .es-steps__img--2 {
     margin-top: -80px;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__visual {
+    position: relative;
+    flex: 0 0 auto;
+    order: 2;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__texts {
+    position: relative;
+    width: 100%;
+    padding: 0;
+  }
+
+  #es-sodastream.es-sodastream .es-vitamins__texts--left {
+    order: 1;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__texts--right {
+    order: 3;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__img {
+    position: relative;
+    z-index: 1;
+    display: block;
+    padding: 60px 0;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__badge {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #e5dcd3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .es-vitamins__badge--b3 {
+    top: 18%;
+    right: -97px;
+    align-items: start;
+    padding-left: 21px;
+    font-size: 50px !important;
+    transform: scale(1.1);
+  }
+  .es-vitamins__badge--b6 {
+    top: 30%;
+    right: -328px;
+    transform: scale(1.4);
+    align-items: end;
+    padding-right: 18px;
+    font-size: 50px !important;
+  }
+  .es-vitamins__badge--zinc {
+    bottom: 20%;
+    left: -350px;
+    transform: scale(1.6);
+    align-items: start;
+    padding-left: 12px;
+    font-size: 38px !important;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__badge span {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__text {
+    position: absolute;
+    text-align: left;
+    font-size: 16px;
+  }
+  .es-vitamins__text--top {
+    top: 9%;
+    right: 29%;
+    text-align: right !important;
+  }
+  .es-vitamins__text--middle {
+    top: 23%;
+    left: 40%;
+    text-align: left !important;
+  }
+  .es-vitamins__text--bottom {
+    top: 44%;
+    right: 51%;
+    text-align: right !important;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__footer {
+    margin-top: -20px;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__title {
+    font-size: 36px;
+  }
+  #es-sodastream.es-sodastream .es-vitamins__text {
+    font-size: 20px;
   }
   #es-sodastream.es-sodastream .es-ctaInfo__line {
     display: block;
@@ -978,9 +1120,5 @@
   .swiper-button-next {
     height: 40px;
     width: 40px;
-  }
-  @media (min-width: 1200px) {
-  #es-sodastream.es-sodastream .es-slider__inner-image {
-    max-width: 500px;
   }
 } /*# sourceMappingURL=style.css.map */
