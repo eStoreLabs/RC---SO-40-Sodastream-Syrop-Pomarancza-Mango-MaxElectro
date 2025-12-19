@@ -229,13 +229,24 @@
   font-family: inherit;
   font-weight: inherit;
   font-size: 16px;
-  font-family: "HurmeGeometricSans3-Light", sans-serif;
   text-align: left;
 }
 
 #es-sodastream.es-sodastream .es-vitamins__badge {
   font-size: 30px;
   font-weight: 700;
+}
+.es-vitamins__text--middlem {
+  display: block;
+}
+.es-vitamins__text--bottomm {
+  display: block;
+}
+.es-vitamins__text--middle {
+  display: none;
+}
+.es-vitamins__text--bottom {
+  display: none;
 }
 
 #es-sodastream.es-sodastream .es-vitamins__footer {
@@ -1032,19 +1043,27 @@
     font-size: 16px;
   }
   .es-vitamins__text--top {
-    top: 9%;
-    right: 29%;
+    top: 13%;
+    right: 27%;
     text-align: right !important;
   }
   .es-vitamins__text--middle {
     top: 23%;
     left: 40%;
     text-align: left !important;
+    display: block;
   }
   .es-vitamins__text--bottom {
-    top: 44%;
+    top: 46%;
     right: 51%;
     text-align: right !important;
+    display: block;
+  }
+  .es-vitamins__text--middlem {
+    display: none;
+  }
+  .es-vitamins__text--bottomm {
+    display: none;
   }
   #es-sodastream.es-sodastream .es-vitamins__footer {
     margin-top: -20px;
@@ -1120,5 +1139,11 @@
   .swiper-button-next {
     height: 40px;
     width: 40px;
+  }
+}
+
+@media (min-width: 960px) {
+  .es-vitamins__text--bottom {
+    right: 47%;
   }
 } /*# sourceMappingURL=style.css.map */
